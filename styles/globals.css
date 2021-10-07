@@ -7,10 +7,24 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #3cc9e2;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  margin: 0;
 }

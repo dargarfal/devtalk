@@ -1,0 +1,17 @@
+.main_header {
+  background-color: aliceblue;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+} 
+.main_menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5rem 0;
+  
+}
+
+.main_menu a:hover {
+  color: rebeccapurple;
+}
